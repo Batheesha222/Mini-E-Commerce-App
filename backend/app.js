@@ -9,7 +9,7 @@ const connectMongoDb = require("./init/mongodb")
 const app = express()
 
 //connect database
-// connectMongoDb()
+connectMongoDb()
 
 //third party middleware
 app.use(express.json({limit:"500mb"}))
