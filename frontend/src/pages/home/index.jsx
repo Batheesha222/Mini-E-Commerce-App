@@ -3,10 +3,9 @@ import Header from "../../components/partials/header";
 const Home = () => {
   return (
     <>
-    <Header/>
-    <div className="">Home</div>
+      <Header />
+      <div className="">Home</div>
     </>
-   
   );
 };
 
